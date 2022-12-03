@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+.hex-code {
+    font-weight: 400;
+    margin-block: 0.5rem 2rem;
+    font-size: 1.25rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
